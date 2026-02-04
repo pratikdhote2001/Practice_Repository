@@ -14,7 +14,7 @@ import jakarta.servlet.http.HttpServletRequest;
 @Controller
 public class Controller_Class {
 
-    @GetMapping("/add")
+    @GetMapping("/login")
     public String getData() {
         return "pratik";
     }
@@ -34,5 +34,9 @@ public class Controller_Class {
 	
     		}
 	
-   
+    
+   public String setData()
+   {
+	   return "My name is Pratik";
+   }
 }
