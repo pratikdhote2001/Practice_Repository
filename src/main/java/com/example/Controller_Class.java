@@ -34,9 +34,5 @@ public class Controller_Class {
 	
     		}
 	
-    public String getDa()
-    {
-    	return "Hello Pratik";
-    	//Hello
-    }
+   
 }
